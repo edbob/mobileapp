@@ -1,1 +1,246 @@
-﻿
+﻿body {
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+}
+
+p {
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    color: #565656;
+}
+
+/*BUTTONS*/
+
+.my-btn {
+    padding: 10px 40px;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-downad {
+    font-family: "OpenSans-Regular", sans-serif;
+    background: #00cc99;
+    font-size: 24px;
+}
+
+    .btn-downad img {
+        width: 40px;
+        margin-right: 12px;
+    }
+
+/*HEADER*/
+header {
+    height: 758px;
+    background-image: url('../img/bg-heder.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    line-height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.my-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+    .my-menu li {
+        display: inline-block;
+        padding: 0 25px;
+    }
+
+        .my-menu li a {
+            font-family: "OpenSans-Bold", sans-serif;
+            color: #666666;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+            .my-menu li a:hover,
+            .my-menu li a:focus {
+                color: #333333;
+                text-decoration: none;
+            }
+
+.my-logos a {
+    font-family: "Raleway-Bold", sans-serif;
+    color: #33cc99;
+    font-size: 30px;
+    margin: 12px;
+}
+
+
+    .my-logos a:hover,
+    .my-logos a:focus {
+        color: #333333;
+    }
+
+    .my-logos a > img {
+        position: relative;
+        bottom: 14px;
+        left: 15px;
+        width: 50px;
+        height: 48px;
+    }
+
+.my-header-menu {
+    background: #fff;
+    margin-top: 25px;
+}
+
+.my-introduce {
+    margin-top: 220px;
+}
+
+.blk-introduce h1 {
+    font-family: "Raleway-Bold", sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.blk-introduce p {
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+}
+
+.my-list-intro {
+    padding-left: 0;
+    margin: 40px 0;
+}
+
+    .my-list-intro li {
+        font-family: "OpenSans-Regular", sans-serif;
+        color: #a1b0bd;
+        font-size: 16px;
+        margin-bottom: 12px;
+        list-style-type: none;
+    }
+
+        .my-list-intro li::before {
+            font-family: "Courier New", sans-serif;
+            content: "\203a";
+            font-size: 25px;
+            padding: 0 12px 0 0;
+        }
+/*main*/
+.my-features {
+    background: #ffffff;
+}
+
+.my-fearure-header {
+    text-align: center;
+    padding: 12px;
+}
+
+    .my-fearure-header h1 {
+        font-family: "Raleway-Bold", sans-serif;
+        color: #33cc99;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .my-fearure-header p {
+        font-size: 18px;
+        margin: 40px 0;
+        padding: 0 65px 40px 65px;
+    }
+
+.my-fearure-content {
+    margin: 60px 0 90px 0;
+}
+
+    .my-fearure-content img {
+        float: left;
+        padding: 0 40px 40px 0;
+    }
+
+    .my-fearure-content h4 {
+        font-family: "Raleway-Bold", sans-serif;
+    }
+
+    .my-fearure-content p {
+        font-size: 14px;
+    }
+
+.my-fearure-img img{
+    width: 100%;
+}
+
+.my-watch {
+    background: #31d4e7;
+}
+
+.my-watch-intro{
+    padding: 20px 0;
+}
+
+    .my-watch-intro h1 {
+        font-family: "Raleway-Bold", sans-serif;
+        color: #1f1b13;
+        text-transform: uppercase
+    }
+
+    .my-watch-intro p {
+        color: #fffef8;
+    }
+
+.mblok-info {
+    margin-top: 10px;
+    padding-left: 0;
+    float: left;
+    font-size: 12px;
+}
+
+    .mblok-info i {
+        margin: 5px 9px 0;
+        font-size: 25px;
+    }
+
+    .mblok-info li {
+        display: block;
+        float: left;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+        padding: 5px;
+        background: #0198cd;
+        border-radius: 25px;
+        border: 1px solid #0198cd;
+        margin-right: 10px;
+    }
+
+        .mblok-info li:hover,
+        .mblok-info li:focus {
+            background: #222222;
+            border: 1px solid #222222;
+            cursor: pointer;
+        }
+
+    .mblok-info a {
+        color: #f4f4f4;
+    }
+
+        .mblok-info a:hover,
+        .mblok-info a:focus {
+            color: #f4f4f4;
+        }
+
+.my-watch-video {
+    padding: 40px 0 40px 60px;
+}
+
+    .my-watch-video iframe {
+        border-radius: 10px;
+        border: 1px solid #967253;
+    }
