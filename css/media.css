@@ -7,17 +7,72 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .my-contact h3{
+        text-align: center;
 
+    }
+
+    .my-contact p {
+        text-align: center;
+    }
+
+    .mblok-info.mcolors {
+        padding: 0 35%;
+    }
+
+    ul.contactus {
+        padding: 0 35%;
+    }
+
+    #contact {
+        margin: 0 auto 60px auto;
+    }
+
+    ul.mblok-info {
+        float: none;
+        margin: 0 35%;
+        padding-bottom: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width:767px) {
+    form#contact {
+        margin: 0 auto 60px auto;
+        width: 100%;
+    }
 
+        form#contact input[type=text] {
+            width: 100%;
+        }
 
+        form#contact input[type=email] {
+            width: 100%;
+        }
+
+        form#contact textarea {
+            width: 100%;
+        }
+
+    div.my-customer p {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+
+    .my-blk-header h1{
+        font-size: 23px;
+    }
+
+    section.my-teame {
+        margin-bottom: 20px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .my-blk-header h1 {
+        font-size: 15px;
+    }
 }
 
 /* Custom, iPhone Retina */
